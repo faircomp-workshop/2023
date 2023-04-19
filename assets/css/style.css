@@ -831,7 +831,8 @@ a {
     .main-content table th,
     .main-content table td {
       padding: 0.5rem 1rem;
-      border: 1px solid white; }
+      border-top: 1px solid white;
+    border-bottom: 1px solid #ddd;}
   .main-content dl {
     padding: 0; }
     .main-content dl dt {
@@ -912,4 +913,19 @@ abstract {
 
 .first-letter {
   font-size: 1.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  /*border-bottom: 1px solid #ddd !important;*/
+}
+
+.thick-line {
+  border-bottom: 3px solid #ddd !important;
+  border-top: 3px solid #ddd !important;
 }
