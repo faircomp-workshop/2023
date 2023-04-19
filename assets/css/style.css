@@ -911,9 +911,9 @@ td {
 abstract {
   font-size: 0.90rem; }
 
-.first-letter {
-  font-size: 1.5rem;
-}
+/*.first-letter {*/
+/*  font-size: 1.5rem;*/
+/*}*/
 
 table {
   border-collapse: collapse;
