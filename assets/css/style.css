@@ -929,3 +929,7 @@ th, td {
   border-bottom: 3px solid #ddd !important;
   border-top: 3px solid #ddd !important;
 }
+
+.no-lines tbody td {
+    border-bottom: 1px solid white;
+}
