@@ -954,3 +954,7 @@ th, td {
 .project-name,.project-tagline {
   display: none;
 }
+
+td > img {
+  clip-path: circle();
+}
