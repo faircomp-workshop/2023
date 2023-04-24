@@ -6,7 +6,7 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 html {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -571,7 +571,7 @@ th {
   box-sizing: border-box; }
 
 html {
-  font-family: "Thasadith", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Inter, "Thasadith", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.50; }
 
