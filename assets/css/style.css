@@ -578,7 +578,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  color: black; }
+  color: #113654; }
 
 #skip-to-content {
   height: 1px;
@@ -749,7 +749,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: black; }
+    color: #113654; }
   .main-content p {
     margin-bottom: 1em;
     text-align: justify;}
