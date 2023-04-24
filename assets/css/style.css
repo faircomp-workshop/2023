@@ -901,6 +901,7 @@ a {
       background-image: url("../images/banner_full.png");
       /* min-height: 700px; */
       padding-top: 600px;
+      padding-bottom: 50px;
       /* height: 1000px */
       /* background-image: url("../images/banner_medium.png"); */
       /* padding: 2.5rem 6rem;  */
@@ -910,13 +911,14 @@ a {
       background-image: url("../images/banner_medium.png");
       /* min-height: 400px; */
       padding-top: 350px;
+      padding-bottom: 50px;
       /* padding: 2.5rem 4rem;  */
     } }
   @media screen and (max-width: 42em) {
     .page-header {
       background-image: url("../images/banner_small.png");
       padding-top:350px;
-      padding-bottom: 20px;
+      padding-bottom: 70px;
       /* padding: 2rem 1rem;  */
     } }
 
