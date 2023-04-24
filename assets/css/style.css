@@ -950,3 +950,7 @@ th, td {
 .no-lines tbody td {
     border-bottom: 1px solid white;
 }
+
+.project-name,.project-tagline {
+  display: none;
+}
