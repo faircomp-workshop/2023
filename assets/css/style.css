@@ -571,9 +571,11 @@ th {
   box-sizing: border-box; }
 
 html {
-  font-family: Inter, "Thasadith", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.50; }
+  font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+}
 
 body {
   padding: 0;
