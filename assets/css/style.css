@@ -4,9 +4,9 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@import url("https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter");
 html {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -571,14 +571,16 @@ th {
   box-sizing: border-box; }
 
 html {
-  font-family: "Thasadith", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.50; }
+  font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+}
 
 body {
   padding: 0;
   margin: 0;
-  color: black; }
+  color: #113654; }
 
 #skip-to-content {
   height: 1px;
@@ -666,7 +668,7 @@ a {
         margin-top: 1rem;
         margin-left: 0; } }
 
-.page-header {
+/* .page-header {
   color: white;
   text-align: center;
   background-color: #000;
@@ -679,7 +681,7 @@ a {
       padding: 2.5rem 4rem; } }
   @media screen and (max-width: 42em) {
     .page-header {
-      padding: 2rem 1rem; } }
+      padding: 2rem 1rem; } } */
 
 .project-name {
   margin-top: 0;
@@ -749,7 +751,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: black; }
+    color: #113654; }
   .main-content p {
     margin-bottom: 1em;
     text-align: justify;}
@@ -891,19 +893,36 @@ a {
   color: white;
   text-align: center;
   background-color: #000;
-  background-image: url("../images/banner.png");
+  /* background-image: url("../images/banner_full.png"); */
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: top;
+}
   @media screen and (min-width: 64em) {
     .page-header {
-      padding: 2.5rem 6rem; } }
+      background-image: url("../images/banner_full.png");
+      /* min-height: 700px; */
+      padding-top: 600px;
+      padding-bottom: 50px;
+      /* height: 1000px */
+      /* background-image: url("../images/banner_medium.png"); */
+      /* padding: 2.5rem 6rem;  */
+    } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .page-header {
-      padding: 2.5rem 4rem; } }
+      background-image: url("../images/banner_medium.png");
+      /* min-height: 400px; */
+      padding-top: 350px;
+      padding-bottom: 50px;
+      /* padding: 2.5rem 4rem;  */
+    } }
   @media screen and (max-width: 42em) {
     .page-header {
-      padding: 2rem 1rem; } }
+      background-image: url("../images/banner_small.png");
+      padding-top:350px;
+      padding-bottom: 70px;
+      /* padding: 2rem 1rem;  */
+    } }
 
 td {
   vertical-align: top; }
@@ -932,4 +951,12 @@ th, td {
 
 .no-lines tbody td {
     border-bottom: 1px solid white;
+}
+
+.project-name,.project-tagline {
+  display: none;
+}
+
+td > img {
+  clip-path: circle();
 }
